@@ -11,6 +11,7 @@
 		21FF7A7E2AA16FF6009467EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF7A7D2AA16FF6009467EC /* ContentView.swift */; };
 		21FF7A802AA16FF7009467EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FF7A7F2AA16FF7009467EC /* Assets.xcassets */; };
 		21FF7A832AA16FF7009467EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FF7A822AA16FF7009467EC /* Preview Assets.xcassets */; };
+		21FF7A8A2AA171CD009467EC /* RotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FF7A892AA171CD009467EC /* RotatingImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		21FF7A7D2AA16FF6009467EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		21FF7A7F2AA16FF7009467EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21FF7A822AA16FF7009467EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21FF7A892AA171CD009467EC /* RotatingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				21FF7A7B2AA16FF6009467EC /* CoolFanAppApp.swift */,
 				21FF7A7D2AA16FF6009467EC /* ContentView.swift */,
+				21FF7A892AA171CD009467EC /* RotatingImageView.swift */,
 				21FF7A7F2AA16FF7009467EC /* Assets.xcassets */,
 				21FF7A812AA16FF7009467EC /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FF7A8A2AA171CD009467EC /* RotatingImageView.swift in Sources */,
 				21FF7A7E2AA16FF6009467EC /* ContentView.swift in Sources */,
 				21FF7A7C2AA16FF6009467EC /* CoolFanAppApp.swift in Sources */,
 			);
