@@ -11,9 +11,9 @@ struct ContentView: View {
     @State private var isRotating = false
     
     var body: some View {
-        VStack(spacing: 20) { // Add spacing between the elements
+        VStack(spacing: 20) {
             RotatingImageView(isRotating: $isRotating)
-                .padding(.bottom, 150) // Add padding to create more distance
+                .padding(.bottom, 150)
             
             Button(action: {
                 self.isRotating.toggle()
@@ -26,7 +26,7 @@ struct ContentView: View {
                     .cornerRadius(8)
             }
         }
-        .padding(20) // Add padding to the whole VStack
+        .padding(20)
     }
 }
 
